@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link href="https://fonts.googleapis.com/css?family=Be+Vietnam+Pro:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .brand-wrap{
+            flex: 1 1 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+              <button class='mobile-btn'>
+                <span class="navbar-toggler-icon"></span>
+              </button>  
+              
+              
+              
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 pc-menu">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/product.html">Collections</a>
+                    </li>
+                    <li class="nav-item New">
+                        <a class="nav-link New-toggle" href="#" aria-current="page">
+                            New
+                        </a>        
+                    </li>         
+                </ul>
+              
+              <div class="brand-wrap"><a class="navbar-brand" href="#"><img src="img/Group 53.png" alt=""></a></div>
+              <ul class="nav justify-content-end">
+                <li class="nav-item">
+                  <a class="nav-link active ifejso" aria-current="page" href="#"><img src="img/Group 8.png" alt=""></a>
+                </li>
+                <li class="nav-item aboba">
+                    <a class="nav-link" aria-current="page" href="#"><img src="img/Rectangle 1.png" alt=""><span class="aboba__span">Cart</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#"><img src="img/Group 7.png" alt=""></a>
+                </li>
+                <li class="nav-item abobd">
+                    <a class="nav-link active" aria-current="page" href="#"><img src="img/Group 6.png" alt=""></a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+          <div class="mobile-menu" >
+           <div class="container">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Collections</a>
+              </li>
+              <li class="nav-item New">
+                <a class="nav-link New-toggle" href="#" aria-current="page">
+                  New
+                </a>
+                
+              </li>
+             
+            </ul>
+           </div>
+          </div>
+    </header>
+<div class="offcanvas offcanvas-start show" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="offcanvasScrollingLabel">Filters</h5>
+  </div>
+  <div class="offcanvas-body">
+    <div class="size">
+      <h2>Size</h2>
+      <button type="button" class="btn csds active" data-bs-toggle="button">XS</button>
+      <button type="button" class="btn csds active" data-bs-toggle="button">S</button>
+      <button type="button" class="btn csds active" data-bs-toggle="button">M</button>
+      <button type="button" class="btn csds active" data-bs-toggle="button">L</button>
+      <button type="button" class="btn csds active" data-bs-toggle="button">XL</button>
+      <button type="button" class="btn csds active" data-bs-toggle="button">2X</button>
+    </div>
+    <div class="accordion" id="accordionExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            Availability
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <div class="form-check">
+              <input data-cat="Availability" class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+              <label class="form-check-label" for="flexCheckDefault">
+                Availability <span>(450)</span>
+              </label>
+            </div>
+            <div class="form-check">
+              <input data-cat="Out of stack" class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+              <label class="form-check-label" for="flexCheckChecked">
+                Out of stack <span>(18)</span>
+              </label>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            Category
+          </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <div class="form-check">
+              <input data-cat="New" class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+              <label class="form-check-label" for="flexCheckDefault">
+                New
+              </label>
+            </div>
+            <div class="form-check">
+              <input data-cat="Best Sellers" class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+              <label class="form-check-label" for="flexCheckChecked">
+                Best Sellers
+              </label>
+            </div><div class="form-check">
+              <input data-cat="Shirts" class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+              <label class="form-check-label" for="flexCheckDefault">
+                Shirts
+              </label>
+            </div>
+            <div class="form-check">
+              <input data-cat="T-Shirts" class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+              <label class="form-check-label" for="flexCheckChecked">
+                T-Shirts
+              </label>
+            </div><div class="form-check">
+              <input data-cat="Polo Shirts" class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+              <label class="form-check-label" for="flexCheckDefault">
+                Polo Shirts
+              </label>
+            </div>
+            <div class="form-check">
+              <input data-cat="Jeans" class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+              <label class="form-check-label" for="flexCheckChecked">
+                Jeans
+              </label>
+            </div><div class="form-check">
+              <input data-cat="Shorts" class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+              <label class="form-check-label" for="flexCheckDefault">
+                  Shorts
+              </label>
+            </div>
+            <div class="form-check">
+              <input data-cat="Jackets" class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+              <label class="form-check-label" for="flexCheckChecked">
+                Jackets
+              </label>
+            </div><div class="form-check">
+              <input data-cat="Suits" class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+              <label class="form-check-label" for="flexCheckDefault">
+                Suits
+              </label>
+            </div>
+            <div class="form-check">
+              <input data-cat="Coats" class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+              <label class="form-check-label" for="flexCheckChecked">
+                Coats
+              </label>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            Colors
+          </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <div class="form-check">
+              <input data-cat="White"  class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+              <label class="form-check-label" for="flexCheckChecked">
+                White
+              </label>
+            </div><div class="form-check">
+              <input data-cat="Black" class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+              <label class="form-check-label" for="flexCheckChecked">
+                Black
+              </label>
+            </div>
+            <div class="form-check">
+              <input data-cat="Grey" class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+              <label class="form-check-label" for="flexCheckChecked">
+                Grey
+              </label>
+            </div><div class="form-check">
+              <input data-cat="Light blue" class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+              <label class="form-check-label" for="flexCheckChecked">
+                Light blue
+              </label>
+            </div>
+            <div class="form-check">
+              <input data-cat="Wheat" class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+              <label class="form-check-label" for="flexCheckChecked">
+                Wheat
+              </label>
+            </div>
+            <div class="form-check">
+              <input data-cat="Brown" class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+              <label class="form-check-label" for="flexCheckChecked">
+                Brown
+              </label>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+            Price Range
+          </button>
+        </h2>
+        <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <label for="customRange1" class="form-label">0-200$</label>
+            <input type="range" min="0" max="200" class="form-range" id="customRange1">
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+            Collections  
+          </button>
+        </h2>
+        <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <label for="customRange1" class="form-label">0-200$</label>
+            <input type="range" min="0" max="200" class="form-range" id="customRange1">
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+            Tags
+          </button>
+        </h2>
+        <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <label for="customRange1" class="form-label">0-200$</label>
+            <input type="range" min="0" max="200" class="form-range" id="customRange1">
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+            Ratings
+          </button>
+        </h2>
+        <div id="collapseSeven" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <label for="customRange1" class="form-label">0-200$</label>
+            <input type="range" min="0" max="200" class="form-range" id="customRange1">
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</div>
+<div class="container pa">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item active" aria-current="page">Home</li>
+            </ol>
+        </nav>
+      
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Products</li>
+            </ol>
+        </nav>
+       
+        <div class="inp">
+            <input  placeholder="Search" type="text" name="" id="">
+            <img src="img/Group 4.png" alt="">
+        </div>
+  
+</div>
+<div class="container pb"></div>
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script>
+        const menu = document.querySelector('.mobile-menu')
+        const mobileBTN = document.querySelector('.mobile-btn')
+
+        mobileBTN.addEventListener('click',()=>{
+          menu.classList.toggle('mobile-show')
+        })
+        
+        window.addEventListener('resize',()=>{
+          if (window.innerWidth>991){
+            menu.classList.remove('mobile-show')
+            const fluid = document.querySelectorAll('.container-fluid')
+            fluid.forEach(el=>{
+              el.classList.add('container')
+              el.classList.remove('container-fluid')
+            })
+
+          }
+          if (window.innerWidth<991){
+            const container = document.querySelectorAll('.container')
+            container.forEach(el=>{
+              el.classList.add("container-fluid")
+              el.classList.remove("container")
+            })
+          }
+        })
+      </script>
+      <script src="js/script.js"></script>
+</body>
+</html>
